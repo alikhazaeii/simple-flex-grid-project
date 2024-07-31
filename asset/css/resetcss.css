@@ -1,0 +1,25 @@
+*,*::after,*::before{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+  font-family: Arial;
+  width: 100%;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  &:active{
+    color: inherit;
+  }
+  &:visited{
+    color: inherit;
+  }
+}
